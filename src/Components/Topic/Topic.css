@@ -1,0 +1,39 @@
+.topic_card_image {
+    width: 100%;
+}
+
+.topic_card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    padding: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.topic_card:hover {
+    transform: scale(1.05);
+}
+
+.topic {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.note {
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(172, 172, 172);
+}
+
+.topic_title {
+    color: #fff;
+    letter-spacing: 2px;
+}
